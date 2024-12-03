@@ -5,7 +5,7 @@
  *
  * Partner 1: Shuta Shibue
  * Partner 2: Gabriela Roznawska
- * Date:
+ * Date: 2024/12/04
  */
 
 #include "kruskal.hpp"
