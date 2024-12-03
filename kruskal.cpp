@@ -3,8 +3,8 @@
  * kruskal.cpp
  * Fall 2022
  *
- * Partner 1:
- * Partner 2:
+ * Partner 1: Shuta Shibue
+ * Partner 2: Gabriela Roznawska
  * Date:
  */
 
