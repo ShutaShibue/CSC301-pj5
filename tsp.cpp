@@ -32,13 +32,13 @@ vector<int> tsp(vector<Vertex> &adjList, Vertex &start) {
         Vertex current = s.top();
         s.pop();
         int current_label = current.label;
-        if (!visited[current_label]) {
+        if (!visited[current_label]) { // If the current node has not been visited
             visited[current_label] = true;
             tour.push_back(current_label);
 
             // Add all the neighbors to the stack
             for (int neighbor : adjList[current_label].mstNeighbors) {
-                if (!visited[neighbor]) {
+                if (!visited[neighbor]) { // If the neighbor has not been visited
                     s.push(adjList[neighbor]);
                 }
             }
