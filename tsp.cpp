@@ -38,7 +38,7 @@ vector<int> tsp(vector<Vertex> &adjList, Vertex &start) {
             tour.push_back(current_label);
 
             // Add all the neighbors to the stack
-            for (int neighbor : adjList[current_label].neighbors) {
+            for (int neighbor : adjList[current_label].mstNeighbors) {
                 if (!visited[neighbor]) {
                     s.push(adjList[neighbor]);
                 }
