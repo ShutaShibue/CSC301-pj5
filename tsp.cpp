@@ -31,7 +31,6 @@ vector<int> tsp(vector<Vertex> &adjList, Vertex &start) {
     while (!s.empty()) {
         Vertex current = s.top();
         s.pop();
-
         int current_label = current.label;
         if (!visited[current_label]) {
             visited[current_label] = true;

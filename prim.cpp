@@ -67,6 +67,8 @@ vector<Edge> prim(vector<Vertex> &adjList, vector<double> &adjMat) {
       Edge newEdge(adjList[prev[u]], current, cost[u]);
       mst.push_back(newEdge);
       newEdge.printEdge();
+      adjList[prev[u]].mstNeighbors.push_back(current.label);
+      adjList[current.label].mstNeighbors.push_back(prev[u]);
     }//if
     
     for (int neigh : current.neighbors) {
