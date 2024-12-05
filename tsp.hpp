@@ -3,9 +3,9 @@
  * tsp.hpp
  * Fall 2022
  *
- * Partner 1:
- * Partner 2:
- * Date:
+ * Partner 1: Shuta Shibue
+ * Partner 2: Gabriela Roznawska
+ * Date: 2024/12/04
  */
 
 #ifndef TSP_HPP_
